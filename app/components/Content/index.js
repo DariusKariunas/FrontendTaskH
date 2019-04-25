@@ -5,14 +5,9 @@
  */
 
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import styled from 'styled-components';
 import { Row, Col } from 'react-flexbox-grid';
 import Counter from 'components/Counter';
 import Offer from 'components/Offer';
-
-// import { FormattedMessage } from 'react-intl';
-// import messages from './messages';
 import './style.scss';
 
 function Content() {

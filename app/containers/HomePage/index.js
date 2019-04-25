@@ -7,9 +7,6 @@
 
 import React from 'react';
 import Footer from 'components/Footer';
-// import { FormattedMessage } from 'react-intl';
-// import messages from './messages';
-
 import Navbar from 'components/Navbar';
 import Content from 'components/Content';
 import './style.scss';

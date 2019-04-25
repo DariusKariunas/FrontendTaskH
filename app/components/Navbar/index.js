@@ -5,11 +5,7 @@
  */
 
 import React from 'react';
-// import PropTypes from 'prop-types';
-// import styled from 'styled-components';
 import Logo from 'images/logo.png';
-// import { FormattedMessage } from 'react-intl';
-// import messages from './messages';
 import './style.scss';
 
 function classToggle() {
@@ -30,11 +26,11 @@ function Navbar() {
         <i className="fas fa-bars" />
       </div>
       <nav className="Navbar__Items Navbar__Items--right">
-        <a href="home">Web Hosting</a>
-        <a href="home">Cloud Hosting</a>
-        <a href="home">VPS Hosting</a>
-        <a href="home">Domain checker</a>
-        <a href="home">Website builder</a>
+        <a href="https://www.hostinger.lt/hostingas">Web Hosting</a>
+        <a href="https://www.google.com">Cloud Hosting</a>
+        <a href="https://www.hostinger.lt/vps-serveriai">VPS Hosting</a>
+        <a href="https://www.hostinger.lt/domenai">Domain checker</a>
+        <a href="https://www.hostinger.lt/svetaines-kurimas">Website builder</a>
       </nav>
     </div>
   );

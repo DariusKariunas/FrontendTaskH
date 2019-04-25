@@ -1,17 +1,17 @@
 @media (max-width: 991.98px){
-.counter {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    font-weight: 700;
-}
+    .counter {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+    }
 }
 
 @media(min-width: 991.99px){
-.counter {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    font-weight: 700;
-}
+    .counter {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+        font-weight: 700;
+    }
 }
 
 .counter {
@@ -26,23 +26,18 @@
             color: red;
         }
     }
-    
-    
     .arrowLeft {
         content: url(../../images/iconfinder-icon.svg);
         transform: rotate(-90deg);
-        border-top-color: #fc5055;
+        border-top-color: #fc5155;
         position: relative;
-      }
-
-      .arrowRight {
+    }
+    .arrowRight {
         content: url(../../images/iconfinder-icon.svg);
         transform: rotate(90deg);
-        border-top-color: #fc5055;
+        border-top-color: #fc5155;
         position: relative;
-
-      }
-    
+    }
     > Button {
         color: white;
         background-color: #fc5155;
@@ -60,5 +55,4 @@
         transition: background .8s;
         background-color:#ff4546;
     }
-    
 }
