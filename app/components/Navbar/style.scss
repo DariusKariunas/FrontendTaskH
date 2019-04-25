@@ -1,0 +1,101 @@
+
+
+
+body { 
+    margin: 0
+  }
+  
+  .Navbar {
+    
+    display: flex;
+    padding-top: 12px;
+    font-family: sans-serif;
+    color: white;
+    .Navbar__Link{
+    > img {
+       
+        width: 140px;
+    }
+  }}
+   
+  .Navbar__Items {
+    > a {
+        float: right;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-top: 12px;   
+        padding-left: 10px; 
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+    }
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width:853px) {
+    .Navbar__Items,
+    .Navbar {
+        background: rgba(0,0,0, 0.2);
+        width: 100%;
+      flex-direction: column;
+    }
+    .Navbar__Items {
+      display:none;
+    }
+    .Navbar__Items--right {
+      margin-left:0;
+    }
+    .Navbar__ToggleShow {
+      display: flex;
+    }
+    .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
+
+
+
+
+/*<div className="navbar">
+      <img src={Logo} alt="Logo" />
+      <a href="home">Web Hosting</a>
+      <a href="home">Cloud Hosting</a>
+      <a href="home">VPS Hosting</a>
+      <a href="home">Domain checker</a>
+      <a href="home">Website builder</a>
+  </div>*/
+
+
+
+
+  /*<div className="nav">
+      <input type="checkbox" className="nav-check" />
+      <div className="nav-header">
+        <img src={Logo} alt="Logo" />
+      </div>
+      <div className="nav-btn">
+        <label htmlFor="nav-check">
+          <span />
+          <span />
+          <span />
+        </label>
+      </div>
+
+      <div className="nav-links">
+        <a href="home">Web Hosting</a>
+        <a href="home">Cloud Hosting</a>
+        <a href="home">VPS Hosting</a>
+        <a href="home">Domain checker</a>
+        <a href="home">Website builder</a>
+      </div>
+  </div>*/

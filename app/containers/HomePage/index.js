@@ -6,13 +6,20 @@
  */
 
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import Footer from 'components/Footer';
+// import { FormattedMessage } from 'react-intl';
+// import messages from './messages';
+
+import Navbar from 'components/Navbar';
+import Content from 'components/Content';
+import './style.scss';
 
 export default function HomePage() {
   return (
-    <h1>
-      <FormattedMessage {...messages.header} />
-    </h1>
+    <div className="home">
+      <Navbar />
+      <Content />
+      <Footer />
+    </div>
   );
 }

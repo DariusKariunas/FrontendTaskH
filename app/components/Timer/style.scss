@@ -1,0 +1,99 @@
+@media (max-width: 1088px){
+    .timer {
+        font-size: 20px;
+        display: flex;
+        
+        //justify-content: space-around;
+        color: white;
+        .new-timer-holder{
+            display:flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: column;
+            min-width: 4em;
+            
+        .new-timer-holder-col{
+            padding-bottom: 0 ;
+            display:block;
+            text-align: center;
+            font-size: 1em;
+            font-weight: 700;
+            
+        }
+        .new-timer-holder-col_text{
+            display: block;
+            text-align: center;
+            font-size: 0.5em;
+            font-weight: 400;
+        }
+    }
+    
+    .arrowLeft {
+        content: url(../../images/iconfinder-icon.svg);
+        transform: rotate(-90deg);
+        border-top-color: #fc5055;
+        position: relative;
+        height: 1.5em;
+        top: 1em;
+      }
+    
+      .arrowRight {
+        content: url(../../images/iconfinder-icon.svg);
+        transform: rotate(90deg);
+        border-top-color: #fc5055;
+        position: relative;
+        height: 1.5em;
+        top: 1em;
+      }
+    }
+}
+
+@media (min-width: 1088px){
+.timer {
+    font-size: 20px;
+    display: flex;
+    
+    //justify-content: space-around;
+    color: white;
+    .new-timer-holder{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        min-width: 4em;
+        
+    .new-timer-holder-col{
+        padding-bottom: 0 ;
+        display:block;
+        text-align: center;
+        font-size: 1.5em;
+        font-weight: 700;
+        
+    }
+    .new-timer-holder-col_text{
+        display: block;
+        text-align: center;
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+}
+
+.arrowLeft {
+    content: url(../../images/iconfinder-icon.svg);
+    transform: rotate(-90deg);
+    border-top-color: #fc5055;
+    position: relative;
+    height: 1.5em;
+    top: 2em;
+  }
+
+  .arrowRight {
+    content: url(../../images/iconfinder-icon.svg);
+    transform: rotate(90deg);
+    border-top-color: #fc5055;
+    position: relative;
+    height: 1.5em;
+    top: 2em;
+  }
+}
+}

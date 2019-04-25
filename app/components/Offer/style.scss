@@ -1,0 +1,124 @@
+@media (max-width: 1088px){
+    .offer {
+      margin-top: 2em;
+      .discount{
+        display: relative;
+        text-align: center;
+        border: 1px solid #fc5055;
+        padding: 10px 30px;
+        background:#fc5055;
+      }
+      .arrowDown {
+        content: url(../../images/iconfinder-icon.svg);
+        //transform: rotate(0deg);
+        border-top-color: #000000;
+        position: relative;
+        left: 6em;
+        height: 1.5em;
+        top: 0.2em;
+      }
+        color:white;
+        font-weight: 700;
+        tr{
+            &:first-child{ 
+              text-align: center;
+              
+            
+          }
+            &:nth-child(2){
+              td{
+                &:first-child{
+                  font-size: 2em; 
+                       
+                  //background: green;
+                  //padding-bottom: 1em;
+                }
+                &:nth-child(2){
+                  padding: 0px;
+                  font-size: 15em;
+                  //background: pink;
+                }                    
+                &:nth-child(3) {
+                  tr{
+                    .price{
+                        font-size: 2em;
+                        
+                          padding-bottom: 0.5em;
+                        //background: red;
+                      }          
+                      .month{
+                          padding-top: 0.5em;
+                          font-size: 2em;
+                        //background: yellow;
+                      }
+                    }       
+                  }   
+                }
+              }
+            }
+    }
+    }
+
+@media (min-width: 1088px){
+    .offer{
+    color:white;
+    font-weight: 700;
+    .discount{
+      display: relative;
+      text-align: center;
+      border: 1px solid #fc5055;
+      padding: 10px 30px;
+      background:#fc5055;
+    }
+    .arrowDown {
+      content: url(../../images/iconfinder-icon.svg);
+      //transform: rotate(0deg);
+      border-top-color: #000000;
+      position: relative;
+      left: 13em;
+      height: 1.5em;
+      top: 0.2em;
+    }
+  table {
+    tr{
+      &:first-child{          
+        padding: 0px;
+        text-align: center;
+      }
+      &:nth-child(2){
+        td{
+          &:first-child{
+            font-size: 7em; 
+                 
+            //background: green;
+            //padding-bottom: 1em;
+          }
+          &:nth-child(2){
+            padding: 0px;
+            font-size: 23em;
+            //background: pink;
+          }                    
+          &:nth-child(3) {
+            tr{
+              &:first-child{
+                td{
+                    padding-bottom: 0.5em;
+                  //background: red;
+                }          
+              }
+              &:nth-child(2){
+                td{
+                    padding-top: 0.5em;
+                    font-size: 5em;
+                    font-weight: 450;
+
+                  //background: yellow;
+                }
+              }       
+            }   
+          }
+        }
+      }
+    }
+  }
+}}

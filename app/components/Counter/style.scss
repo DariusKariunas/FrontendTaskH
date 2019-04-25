@@ -1,0 +1,64 @@
+@media (max-width: 991.98px){
+.counter {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+}
+
+@media(min-width: 991.99px){
+.counter {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+}
+
+.counter {
+    padding-top: 10%;
+    > span {
+        color: white;
+        &:first-child{
+            display: block;
+            margin-right: 20px;
+        }
+        &:nth-child(2){
+            color: red;
+        }
+    }
+    
+    
+    .arrowLeft {
+        content: url(../../images/iconfinder-icon.svg);
+        transform: rotate(-90deg);
+        border-top-color: #fc5055;
+        position: relative;
+      }
+
+      .arrowRight {
+        content: url(../../images/iconfinder-icon.svg);
+        transform: rotate(90deg);
+        border-top-color: #fc5055;
+        position: relative;
+
+      }
+    
+    > Button {
+        color: white;
+        background-color: #fc5155;
+        border: 1px solid #ff4546;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        width: 300px;
+        height: 56px;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.24), 0 0 2px 0 rgba(0,0,0,.12);
+        border-radius: 3px;        
+    }
+    > Button:hover{
+        transition: background .8s;
+        background-color:#ff4546;
+    }
+    
+}
